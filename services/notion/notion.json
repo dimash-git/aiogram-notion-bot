@@ -1,0 +1,253 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "4f412c4e-eb10-4f37-859e-3ef0c3d5246b",
+            "created_time": "2023-05-16T15:23:00.000Z",
+            "last_edited_time": "2023-05-17T06:40:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "2fea1d1d-51ec-4a39-be0b-8fdb8ff9fb43"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "b64022c1-7d49-44ef-a79c-f74393323efd"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "95b6895b-ade6-49b2-8e76-a75afa13617e"
+            },
+            "archived": false,
+            "properties": {
+                "Leverage": {
+                    "id": "%3AyAr",
+                    "type": "number",
+                    "number": null
+                },
+                "TP": {
+                    "id": "%3DdQ%3B",
+                    "type": "number",
+                    "number": 0.4368
+                },
+                "Date": {
+                    "id": "DL%3AX",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-05-16T15:23:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Sum": {
+                    "id": "L%7Bhu",
+                    "type": "number",
+                    "number": 200
+                },
+                "Change, %": {
+                    "id": "NukB",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 0.101
+                    }
+                },
+                "Target R": {
+                    "id": "QWoG",
+                    "type": "number",
+                    "number": 0.74
+                },
+                "Change": {
+                    "id": "SU~x",
+                    "type": "number",
+                    "number": 20.2
+                },
+                "Realized R": {
+                    "id": "VUvr",
+                    "type": "number",
+                    "number": 1.5
+                },
+                "SL": {
+                    "id": "YRwC",
+                    "type": "number",
+                    "number": 0.3504
+                },
+                "Notes": {
+                    "id": "gDVc",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "asdasd",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "asdasd",
+                            "href": null
+                        }
+                    ]
+                },
+                "Long/Short": {
+                    "id": "grDv",
+                    "type": "select",
+                    "select": {
+                        "id": "g_nh",
+                        "name": "Long",
+                        "color": "green"
+                    }
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "$ETH",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "$ETH",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/ETH-4f412c4eeb104f37859e3ef0c3d5246b"
+        },
+        {
+            "object": "page",
+            "id": "dc914b57-275c-4680-a14c-2baa44072659",
+            "created_time": "2023-05-16T15:21:00.000Z",
+            "last_edited_time": "2023-05-16T15:21:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "2fea1d1d-51ec-4a39-be0b-8fdb8ff9fb43"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "2fea1d1d-51ec-4a39-be0b-8fdb8ff9fb43"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "95b6895b-ade6-49b2-8e76-a75afa13617e"
+            },
+            "archived": false,
+            "properties": {
+                "Leverage": {
+                    "id": "%3AyAr",
+                    "type": "number",
+                    "number": null
+                },
+                "TP": {
+                    "id": "%3DdQ%3B",
+                    "type": "number",
+                    "number": 0.4368
+                },
+                "Date": {
+                    "id": "DL%3AX",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-05-16T15:21:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Sum": {
+                    "id": "L%7Bhu",
+                    "type": "number",
+                    "number": 200
+                },
+                "Change, %": {
+                    "id": "NukB",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 0
+                    }
+                },
+                "Target R": {
+                    "id": "QWoG",
+                    "type": "number",
+                    "number": 0.74
+                },
+                "Change": {
+                    "id": "SU~x",
+                    "type": "number",
+                    "number": null
+                },
+                "Realized R": {
+                    "id": "VUvr",
+                    "type": "number",
+                    "number": null
+                },
+                "SL": {
+                    "id": "YRwC",
+                    "type": "number",
+                    "number": 0.3504
+                },
+                "Notes": {
+                    "id": "gDVc",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Long/Short": {
+                    "id": "grDv",
+                    "type": "select",
+                    "select": {
+                        "id": "g_nh",
+                        "name": "Long",
+                        "color": "green"
+                    }
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "$ETH",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "$ETH",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/ETH-dc914b57275c4680a14c2baa44072659"
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page",
+    "page": {}
+}

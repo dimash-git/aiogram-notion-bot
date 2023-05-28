@@ -1,0 +1,11 @@
+"""
+\$: This matches the dollar sign ($). The backslash is needed because the dollar sign has a special meaning in regex (it denotes the end of a line), and we need to escape it to match it literally.
+(\w+): This matches one or more word characters (equivalent to [a-zA-Z0-9_]). This is used to capture the ticker symbol after the dollar sign. The parentheses are used to create a capture group, which allows us to extract the matched text.
+\s: This matches any whitespace character (spaces, tabs, or newlines).
+(\w+): This matches one or more word characters again, capturing the direction (Long or Short).
+(?:\n+)?: This matches one or more newline characters, but does not capture them (that's what the ?: inside the parentheses means). The question mark after the parentheses makes this group optional, allowing for the possibility that there are no newline characters after the direction.
+TP:\s([\d.]+): This matches the string "TP: " followed by one or more digits or periods, capturing the target profit.
+.*\nSL:\s([\d.]+): This matches any number of any characters (the .* part) followed by the string "\nSL: " and one or more digits or periods. It captures the SL value.
+(?:\n+)?: This is the same as before, matching optional newline characters.
+((.|\n)*): This matches any number of any characters or newline characters, capturing the remainder of the message. This is used to capture the description. The . character in regex matches any character except a newline, so we use (.|\n) to match any character including a newline.
+"""
