@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 from config import DB_NAME, DB_PASSWORD
+import logging
 
 
 def get_database():

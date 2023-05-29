@@ -1,3 +1,5 @@
+import logging
+
 from aiogram import types
 from aiogram import Dispatcher
 
@@ -8,6 +10,7 @@ from utils.notion_utils import attach_trade_props
 
 
 async def on_start(message: types.Message):
+    logging.info("start start start")
     user_id = message.from_user.id
     username = message.from_user.username
 
